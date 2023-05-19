@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: white;
+  border-radius: 2%;
+  text-align: left;
+  position: relative;
+  padding: 2%;
+
+  .divImg {
+    width: 28%;
+    height: 55%;
+    background-color: var(--background-violet);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 85%;
+    left: 8%;
+
+    .icon {
+      position: absolute;
+      left: 28%;
+      bottom: 20%;
+    }
+  }
+}

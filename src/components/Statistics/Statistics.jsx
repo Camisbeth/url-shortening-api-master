@@ -1,4 +1,5 @@
 import Card from "../Card/Card";
+import styles from "./Statistics.module.scss";
 
 function Statistics() {
   const cards = [
@@ -22,20 +23,24 @@ function Statistics() {
     },
   ];
   return (
-    <section>
-      <h2>Advanced Statistics</h2>
-      <p>
+    <section className={styles.section}>
+      <h2 className={styles.title}>Advanced Statistics</h2>
+
+      <p className={styles.paragraph}>
         Track how your links are perfoming across the web with our advanced
         statistics dashboard
       </p>
-      {cards.map((card, key) => (
-        <Card
-          img={card.img}
-          title={card.title}
-          paragraph={card.paragraph}
-          key={key}
-        />
-      ))}
+
+      <div className={styles.divCard}>
+        {cards.map((card, key) => (
+          <Card
+            img={card.img}
+            title={card.title}
+            paragraph={card.paragraph}
+            key={key}
+          />
+        ))}
+      </div>
     </section>
   );
 }

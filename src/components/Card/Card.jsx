@@ -3,7 +3,9 @@ import styles from "./Card.module.scss";
 function Card({ img, title, paragraph }) {
   return (
     <section className={styles.section}>
-      <img className={styles.icon} alt="icon" src={img} />
+      <div className={styles.divImg}>
+        <img className={styles.icon} alt="icon" src={img} />
+      </div>
 
       <h3 className={styles.title}>{title}</h3>
 
