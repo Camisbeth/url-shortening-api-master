@@ -1,0 +1,46 @@
+.sectionMain {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  .section {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    height: 40px;
+    padding: 3% 3%;
+    background-color: var(--background-violet);
+    border-radius: 8px;
+    left: 6%;
+    top: -50px;
+    gap: 3%;
+    overflow: hidden;
+    position: relative;
+
+    .input {
+      width: 70%;
+      height: 80%;
+      border-radius: 6px;
+      z-index: 1;
+    }
+
+    .divContainer {
+      width: 15%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .figure {
+      position: absolute;
+      top: 0;
+      width: 70%;
+      height: 80%;
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

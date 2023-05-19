@@ -1,0 +1,33 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-violet);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 3%;
+  height: 100%;
+  width: 100%;
+
+  .title {
+    color: white;
+    z-index: 1;
+    margin-top: 3%;
+  }
+
+  .divButton {
+    width: 12%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .figure {
+    position: absolute;
+    height: 100%;
+
+    .img {
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+}

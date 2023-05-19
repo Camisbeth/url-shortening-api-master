@@ -1,0 +1,32 @@
+.section {
+  display: flex;
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0 16px;
+  gap: 16px;
+
+  .divLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+
+    .link {
+      margin: 0;
+      padding: 0;
+
+      &:nth-child(2n) {
+        color: var(--button);
+      }
+    }
+  }
+  .divButton {
+    width: 10%;
+    height: 80%;
+    margin: 0;
+    padding: 0%;
+  }
+}
