@@ -6,6 +6,8 @@ import LinkShortener from "./components/LinkShortener/LinkShortener";
 import Statistics from "./components/Statistics/Statistics";
 import GetStarted from "./components/GetStarted/GetStarted";
 import Footer from "./components/Footer/Footer";
+import Card from "./components/Card/Card";
+import ButtonUp from "./components/ButtonUp/ButtonUp";
 
 function App() {
   return (
@@ -20,11 +22,17 @@ function App() {
 
         <Statistics />
 
+        <Card />
+
         <GetStarted />
 
         <Footer />
+
+        <ButtonUp />
+        {/* <a className="buttonUpHero" href="/#Hero">
+          <img className="img" src="./public/images/flecha.png" />
+        </a> */}
       </section>
-      <a href="/#Hero">volver</a>
     </>
   );
 }

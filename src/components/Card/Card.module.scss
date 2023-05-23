@@ -1,26 +1,48 @@
 .section {
   display: flex;
-  flex-direction: column;
-  width: 30%;
-  background-color: white;
-  border-radius: 2%;
-  text-align: left;
   position: relative;
-  padding: 2%;
+  gap: 2%;
+  width: 85%;
+  justify-content: space-between;
+  margin: 0 auto;
 
-  .divImg {
-    width: 28%;
-    height: 55%;
-    background-color: var(--background-violet);
-    border-radius: 50%;
-    position: absolute;
-    bottom: 85%;
-    left: 8%;
+  .sectionCard {
+    background-color: white;
+    border-radius: 2%;
+    width: 30%;
+    padding: 8% 2% 0% 2%;
 
-    .icon {
+    .divCircle {
+      width: 8%;
+      height: 32%;
+      border-radius: 50%;
+      background-color: var(--background-violet);
       position: absolute;
-      left: 28%;
-      bottom: 20%;
+      bottom: 85%;
+    }
+
+    .title {
+      color: var(--color-title);
+      margin-bottom: 2%;
+      font-weight: 700;
+    }
+
+    .paragraph {
+      color: var(--letters-and-paragraphs);
+      font-weight: 500;
+    }
+
+    .figure {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      position: relative;
+      bottom: 138%;
+      left: 8%;
+
+      .img {
+        margin: 0;
+      }
     }
   }
 }
