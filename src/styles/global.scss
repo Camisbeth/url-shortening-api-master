@@ -19,28 +19,5 @@ body {
   position: relative;
 }
 
-// .buttonUpHero {
-//   display: flex;
-//   position: fixed;
-//   font-weight: 500;
-//   right: 20px;
-//   bottom: 30px;
-//   background-color: var(--button);
-//   color: white;
-//   border-radius: 100%;
-//   width: 60px;
-//   height: 60px;
-//   border: none;
-//   outline: none;
-//   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-//   z-index: 99;
-//   cursor: pointer;
-
-//   .img {
-//     width: 36px;
-//     height: 36px;
-//     position: relative;
-//     right: -20%;
-//     bottom: -15%;
-//   }
-// }
+@media (max-width: 768px) {
+}

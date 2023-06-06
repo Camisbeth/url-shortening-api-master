@@ -35,3 +35,31 @@
     }
   }
 }
+
+// @media (max-width: 768px) {
+//   .sectionList {
+//     flex-direction: column;
+//     justify-content: center;
+//     position: absolute;
+//     width: 100%;
+//     top: 60px;
+//     left: 0;
+//     height: -webkit-fill-available;
+//     // transform: translate(-100%);
+//     transition: 0.3s ease all;
+
+//     .list {
+//       display: flex;
+//       flex-direction: column;
+//       width: 100;
+
+//       &:first-of-type {
+//         margin-left: 0;
+//       }
+//     }
+
+//     .listWithButton {
+//       width: 100%;
+//     }
+//   }
+// }
